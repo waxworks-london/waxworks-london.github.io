@@ -2,12 +2,12 @@
 
 Elevate team-building to a new level with an unforgettable creative experience
 
-Designed for teams, delivered directly to your space.
+## Designed for teams, delivered directly to your space.
 
 Perfect for social events, seasonal parties, corporate retreat activities, and more.
 
 - Expert-led sessions by trained and professional jewellers
-- No commute needed—we bring the experience to your space
+- **No commute needed** We bring the experience to your space
 - Tailored to your team’s size, needs and goals.
 
 **Book a Workshop**
@@ -109,7 +109,7 @@ Don't have space for everyone at once? No problem! We can either:
 
 ### How safe is this?
 
-We take your safety seriously! Wax carving is a safe and fun activity, but we ask that your group acts responsibly around tools. We hold a Level 2 Health & Safety in the Workplace certificate and Professional Liability Insurance.
+We take your safety seriously! Wax carving is a safe and fun activity, but we ask that your group acts responsibly around tools. We hold a Level 2 Health & Safety in the Workplace certificate and Public Liability Insurance.
 
 ### Can participants drink alcohol?
 
