@@ -2,19 +2,32 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 const colors = require('tailwindcss/colors')
 
+const background = 'hsl(48 100% 98%)';
+
 const body = {
-  primary: 'hsl(235, 66.67%, 30%)',
-  secondary: 'hsl(235, 30%, 30%)',
+  primary: colors.cyan['950'],
+  secondary: colors.cyan['900'],
 };
 
 const accent = {
-  background: 'hsl(181, 45%, 81%)',
-  primary: body.primary,
-  secondary: colors.cyan['700'],
+  background: 'hsl(181 -43% 81%)',
+  primary: colors.blue['950'],
+  secondary: colors.blue['950'],
 };
 
 const button = {
-  primary: colors.red['500'],
+  primary: {
+    text: body.primary,
+    background,
+    hover: colors.amber['400'],
+    border: colors.amber['400'],
+  },
+  accent: {
+    text: accent.primary,
+    background,
+    hover: accent.primary,
+    border: accent.primary,
+  }
 };
 
 module.exports = {
@@ -28,7 +41,7 @@ module.exports = {
     },
     colors: {
       ...colors,
-      white:  'hsl(42 42% 96%);',
+      white: background,
       body,
       accent,
       button,
