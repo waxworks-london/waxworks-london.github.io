@@ -10,9 +10,9 @@ const body = {
 };
 
 const accent = {
-  background: 'hsl(181 -43% 81%)',
-  primary: colors.blue['950'],
-  secondary: colors.blue['950'],
+  background: 'hsl(22.01 42% 88%)',
+  primary: colors.cyan['950'],
+  secondary: colors.cyan['950'],
 };
 
 const button = {
@@ -45,19 +45,6 @@ module.exports = {
       body,
       accent,
       button,
-      // gray: {
-      //   ...colors.gray,
-      //   '600': 'hsl(235, 30%, 30%)',
-      //   '900': 'hsl(235, 66.67%, 30%)',
-      // },
-      // indigo: {
-      //   ...colors.indigo,
-      //   '100': 'hsl(181, 45%, 81%)'
-      // },
-      // intro: {
-      //   'primary': body.primary,
-      //   'secondary': colors.cyan['700'],
-      // },
     },
   },
   plugins: [],
