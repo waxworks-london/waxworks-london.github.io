@@ -10,8 +10,14 @@ const body = {
   tertiary: colors.cyan['900'], // 80% opacity
 };
 
-const accent = {
+const content = {
   background: 'hsl(22 42% 88%)',
+  primary: colors.cyan['950'],
+  secondary: colors.cyan['950'], // 80% opacity
+};
+
+const accent = {
+  background: colors.amber['100'],
   primary: colors.cyan['950'],
   secondary: colors.cyan['950'], // 80% opacity
 };
@@ -21,7 +27,7 @@ const inverted = {
   primary: background,
   secondary: colors.amber['50'], // 90% opacity
   tertiary: colors.amber['50'], // 80% opacity
-}
+};
 
 const button = {
   primary: {
@@ -35,6 +41,11 @@ const button = {
     background,
     hover: accent.primary,
     border: accent.primary,
+  },
+  cta: {
+    background: accent.primary,
+    text: background,
+    hover: colors.cyan['900'],
   }
 };
 
@@ -51,6 +62,7 @@ module.exports = {
       ...colors,
       white: background,
       body,
+      content,
       accent,
       inverted,
       button,
