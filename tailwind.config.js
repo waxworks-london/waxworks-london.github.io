@@ -7,13 +7,21 @@ const background = 'hsl(48 100% 98%)';
 const body = {
   primary: colors.cyan['950'],
   secondary: colors.cyan['900'],
+  tertiary: colors.cyan['900'], // 80% opacity
 };
 
 const accent = {
-  background: 'hsl(22.01 42% 88%)',
+  background: 'hsl(22 42% 88%)',
   primary: colors.cyan['950'],
-  secondary: colors.cyan['950'],
+  secondary: colors.cyan['950'], // 80% opacity
 };
+
+const inverted = {
+  background: colors.cyan['950'],
+  primary: background,
+  secondary: colors.amber['50'], // 90% opacity
+  tertiary: colors.amber['50'], // 80% opacity
+}
 
 const button = {
   primary: {
@@ -36,7 +44,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Libre Franklin', ...defaultTheme.fontFamily.sans],
-        serif: ['Prata', ...defaultTheme.fontFamily.serif],
+        serif: ['The Seasons', 'Bona Nova', 'Nanum Myeongjo', 'Prata', ...defaultTheme.fontFamily.serif],
       },
     },
     colors: {
@@ -44,6 +52,7 @@ module.exports = {
       white: background,
       body,
       accent,
+      inverted,
       button,
     },
   },
