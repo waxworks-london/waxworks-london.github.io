@@ -1416,6 +1416,10 @@ video {
 }
 
 @media not all and (min-width: 1024px) {
+  .max-lg\:hidden {
+    display: none;
+  }
+
   .max-lg\:pt-6 {
     padding-top: 1.5rem;
   }
