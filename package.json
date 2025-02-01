@@ -2,7 +2,7 @@
   "name": "waxworks-london",
   "version": "0.0.1",
   "scripts": {
-    "build": "tailwindcss -i ./src/main.css -o ./styles.css",
+    "build": "tailwindcss -i ./docs/main.css -o ./docs/styles/index.css",
     "dev": "pnpm run build --watch"
   },
   "packageManager": "pnpm@8.13.1+sha256.9e5f62ce5f2b7d4ceb3c2848f41cf0b33032c24d683c7088b53f62b1885fb246",
